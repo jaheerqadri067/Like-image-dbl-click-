@@ -1,0 +1,29 @@
+/**js dom activity like a photo, like instagaram**/
+.instagaram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    /* width: 100%; */
+    /* background-color: whitesmoke; */
+    margin-top: 3rem;
+}
+
+.like-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 355px;
+    background-color: white;
+    box-shadow: 2px 5px 20px black;
+    border-radius: 6px;
+    background: url("https://c8.alamy.com/comp/JGB3XM/concept-shoot-with-a-beautiful-indian-model-with-long-hair-at-a-studio-JGB3XM.jpg") no-repeat center center/cover;
+}
+
+.like-photo #like {
+    opacity: 0;
+    transform: scale(0);
+    color: snow;
+    transition: all 0.3s ease;
+}
