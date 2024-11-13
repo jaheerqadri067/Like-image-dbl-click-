@@ -20,5 +20,5 @@ image.addEventListener("dblclick", () => {
 
     setTimeout(() => {
         heart.style.transform = "scale(0)";
-    }, 1000);
+    }, 1100);
 });
